@@ -1,0 +1,7 @@
+C:\Users\daemo\Documents\ProjectSurpriseJam\.mono\temp\obj\Debug\ProjectSurpriseJam.csprojAssemblyReference.cache
+C:\Users\daemo\Documents\ProjectSurpriseJam\.mono\temp\obj\Debug\ProjectSurpriseJam.AssemblyInfoInputs.cache
+C:\Users\daemo\Documents\ProjectSurpriseJam\.mono\temp\obj\Debug\ProjectSurpriseJam.AssemblyInfo.cs
+C:\Users\daemo\Documents\ProjectSurpriseJam\.mono\temp\bin\Debug\ProjectSurpriseJam.dll
+C:\Users\daemo\Documents\ProjectSurpriseJam\.mono\temp\bin\Debug\ProjectSurpriseJam.pdb
+C:\Users\daemo\Documents\ProjectSurpriseJam\.mono\temp\obj\Debug\ProjectSurpriseJam.dll
+C:\Users\daemo\Documents\ProjectSurpriseJam\.mono\temp\obj\Debug\ProjectSurpriseJam.pdb
