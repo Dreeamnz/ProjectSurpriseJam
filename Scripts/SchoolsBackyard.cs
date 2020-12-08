@@ -43,9 +43,9 @@ public class SchoolsBackyard : Node
 		var mobSpawnLocation = GetNode<PathFollow2D>("MobPath/MobSpawnLocation");
 		mobSpawnLocation.Offset = _random.Next();
 
-		var mobInstance = (Area2D)Mob.Instance();
+		var mobInstance = (KinematicBody2D)Mob.Instance();
 		AddChild(mobInstance);   
-
+		
 		float direction = mobSpawnLocation.Rotation + Mathf.Pi / 2;
 
 		mobInstance.Position = mobSpawnLocation.Position;

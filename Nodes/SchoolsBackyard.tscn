@@ -6,7 +6,7 @@
 
 [sub_resource type="Curve2D" id=1]
 _data = {
-"points": PoolVector2Array( 0, 0, 0, 0, 0.987167, 1.57104, 0, 0, 0, 0, 1022.83, -1.42557, 0, 0, 0, 0, 1022.83, 600.894, 0, 0, 0, 0, 0.987167, 599.396, 0, 0, 0, 0, 0.987167, 1.57104 )
+"points": PoolVector2Array( 0, 0, 0, 0, 1.27547, -1.38011, 0, 0, 0, 0, 637.672, -0.0323029, 0, 0, 0, 0, 636.965, 361.299, 0, 0, 0, 0, 1.27547, 361.299, 0, 0, 0, 0, 0.987167, 1.57104 )
 }
 
 [node name="SchoolsBackyard" type="Node"]
@@ -14,9 +14,9 @@ script = ExtResource( 1 )
 Mob = ExtResource( 3 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 319.613, 172.534 )
 
 [node name="MobTimer" type="Timer" parent="."]
-wait_time = 0.5
 
 [node name="StartTimer" type="Timer" parent="."]
 wait_time = 2.0
@@ -29,8 +29,8 @@ position = Vector2( 250, 450 )
 curve = SubResource( 1 )
 
 [node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath"]
-position = Vector2( 0.987167, 1.57104 )
-rotation = -0.00293259
+position = Vector2( 1.27547, -1.38011 )
+rotation = 0.00211782
 [connection signal="Hit" from="Player" to="." method="game_over"]
 [connection signal="timeout" from="MobTimer" to="." method="OnMobTimerTimeout"]
 [connection signal="timeout" from="StartTimer" to="." method="OnStartTimerTimeout"]

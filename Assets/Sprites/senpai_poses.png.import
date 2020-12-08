@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/linda02.png-6ff675008db5122c2547dba6df27a617.stex"
+path="res://.import/senpai_poses.png-b4050e5a924733ffbe9e62a2c12cda45.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/linda02.png"
-dest_files=[ "res://.import/linda02.png-6ff675008db5122c2547dba6df27a617.stex" ]
+source_file="res://Assets/Sprites/senpai_poses.png"
+dest_files=[ "res://.import/senpai_poses.png-b4050e5a924733ffbe9e62a2c12cda45.stex" ]
 
 [params]
 
