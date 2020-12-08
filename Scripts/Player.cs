@@ -178,12 +178,12 @@ public class Player : Area2D
 		else if(isMoving) 
 		{
 			ACTION_STATE = SENPAI_ACTION_STATE.Running;
-			animatedSprite.Play("Idle" + _DIRECTION_STATE.ToString());
+			animatedSprite.Play("Run" + _DIRECTION_STATE.ToString());
 		}
 		else
 		{
 			ACTION_STATE = SENPAI_ACTION_STATE.Idle;
-			animatedSprite.Stop();
+			animatedSprite.Play("Idle" + _DIRECTION_STATE.ToString());
 		}
 	}
 
